@@ -1,7 +1,7 @@
 FROM ruby:2.0.0
 MAINTAINER Sean McQuillan <sean@remind101.com>
 
-LABEL app r101-projectmonitor
+LABEL app projectmonitor
 
 RUN bundle config --global frozen 1
 
